@@ -34,7 +34,3 @@ jobs:
           echo "Verificando se o Jest está instalado"
           npm list jest  # Verificar se o Jest está listado
           npm test
-
-
-    - name: Install Jest globally
-      run: npm install -g jest
