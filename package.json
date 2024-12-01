@@ -1,6 +1,7 @@
 {
   "name": "calculadora",
   "version": "1.0.0",
+  "description": "Calculadora IMC",
   "main": "index.js",
   "scripts": {
   "test": "jest"
@@ -8,5 +9,7 @@
 ,
   "author": "",
   "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
