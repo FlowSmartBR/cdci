@@ -4,9 +4,8 @@
   "description": "Calculadora IMC",
   "main": "index.js",
   "scripts": {
-  "test": "jest"
-}
-,
+    "test": "jest"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
