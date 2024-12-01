@@ -21,7 +21,7 @@ jobs:
       - name: Configurar o Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '22.x'  # Atualize para v22.x
 
       - name: Instalar dependências
         run: npm install
