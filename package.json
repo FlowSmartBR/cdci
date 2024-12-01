@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "calculadora",
   "version": "1.0.0",
   "description": "Calculadora IMC",
@@ -6,6 +7,12 @@
   "dependencies": {
   "jest": "^29.7.0"
 },
+=======
+  "name": "calculadoora",
+  "version": "1.0.0",
+  "description": "Calculadora IMC",
+  "main": "index.js",
+>>>>>>> ea8c3846345b4f936a24b1065089ed60da822bd5
   "devDependencies": {
     "jest": "^29.7.0"
   },
@@ -15,3 +22,7 @@
   "author": "",
   "license": "ISC"
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> ea8c3846345b4f936a24b1065089ed60da822bd5

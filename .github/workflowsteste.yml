@@ -1,0 +1,36 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v2
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22.x'
+
+      - name: Limpar cache do npm
+        run: npm cache clean --force
+
+      - name: Instalar dependências
+        run: |
+          npm install
+          npm list jest  # Verifica se o Jest foi instalado corretamente
+
+      - name: Rodar os testes
+        run: |
+          echo "Verificando se o Jest está instalado"
+          npm list jest  # Verificar se o Jest está listado
+          npm test
